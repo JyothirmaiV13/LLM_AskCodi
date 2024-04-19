@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Supplies</title>
+    <style>
+        body {
+            background-color: #f2e6ff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #a64dff;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .product {
+            float: left;
+            width: 30%;
+            margin: 10px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Art Supplies</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Supplies</a></li>
+                    <li><a href="#">Sign In</a></li>
+                    <li style="float:right"><a href="#">Account</a></li>
+                    <li style="float:right"><a href="#">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Welcome to our art supplies store</h2>
+        <p>Explore our wide range of art supplies to unleash your creativity.</p>
+        <input type="text" placeholder="Search...">
+        <div class="product">
+            <img src="paint_brush.jpg" alt="Paint Brush">
+            <h3>Paint Brush</h3>
+            <p>High-quality paint brush for smooth strokes.</p>
+            <p>$10.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="canvas.jpg" alt="Canvas">
+            <h3>Canvas</h3>
+            <p>Stretched canvas for oil and acrylic painting.</p>
+            <p>$15.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="watercolor.jpg" alt="Watercolor Set">
+            <h3>Watercolor Set</h3>
+            <p>Professional watercolor set with vibrant colors.</p>
+            <p>$24.99</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2022 Art Supplies</p>
+            <div>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
